@@ -1,10 +1,17 @@
-h1{
-    color: ffffff;
-    background-color: rgb(6, 109, 109);
-    text-align: center;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-p{
-    color: red;
-    background-color: rgb(9, 11, 22);
-    text-align: center;
+h1{
+    font-size: 40px;
+}
+.Name{
+    color: orange;
+}
+.top{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+.top img{
+    width: 100%;
 }
