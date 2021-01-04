@@ -9,9 +9,9 @@ h1{
     color: orange;
 }
 .top{
-    width: 40%;
+    width: 35%;
     float: left;
-    margin: 4%;
+    margin: 5%;
     padding:1%;
 }
 .top img{
@@ -46,7 +46,21 @@ section{
     box-shadow: 10px 10px 50px gray;
     border-radius: 10px;
     height: 80%;
-    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-color: white;
+}
+.Experience{
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgba(11, 11, 177, 0.87),cyan);
+    border-image-slice: 1;
 }
