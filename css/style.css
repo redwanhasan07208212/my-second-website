@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Roboto', sans-serif;
 }
 h1{
@@ -10,8 +11,42 @@ h1{
 .top{
     width: 40%;
     float: left;
-    margin: 5%;
+    margin: 4%;
+    padding:1%;
 }
 .top img{
     width: 100%;
+}
+.head{
+    background-image:url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+}
+.top image{
+    position:fixed;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.my-experi{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height: 80%;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
